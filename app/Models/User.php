@@ -20,6 +20,18 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'cpf',
+        'bank',
+        'bankAccount',
+        'agency',
+        'pixKeys',
+        'extract',
+        'meta'
+        'favorits',
+        'balance',
+        'investiments',
+        'status',
+        'phone'
     ];
 
     /**

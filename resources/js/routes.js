@@ -3,6 +3,7 @@ import About from './components/About'
 import Login from './components/login'
 import Register from './components/register'
 import Welcome from './components/welcome'
+import Pix from './components/pix'
 import NotFounded from './components/404'
 
 export default{
@@ -19,7 +20,11 @@ export default{
         },
         {
             path: '/home',
-            component: App
+            component: App,
+        },
+        {
+            path: '/pix',
+            component: Pix,
         },
         {
             path: '/about',
